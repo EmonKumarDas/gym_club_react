@@ -7,7 +7,15 @@ const Cardfunction = () => {
     useEffect(() => {
         fetch("products.json").then(res => res.json()).then(data => setgym(data));
 
-    }, [])
+    }, []);
+    const [extime,setExtime] = useState([]);
+    let extimecount = 0;
+    const addtocard=(gymdata)=>{
+        console.log(gymdata);
+        const newExtime = [...extime, gymdata];
+        setExtime(newExtime);
+       
+    }
     return (
         <div>
             <div className="grid grid-cols-4 gap-4">
@@ -17,6 +25,7 @@ const Cardfunction = () => {
                             gym.map(gymvalue =>
                                 <Card 
                                 key={gymvalue.id}
+                                addcard = {addtocard}
                                 gymdata={gymvalue}></Card>
                             )
                         }
@@ -24,7 +33,7 @@ const Cardfunction = () => {
                     </div>
                 </div>
                 <div className='col-span-1 bg-[#2A303C] w-[90%] ml-[8%] rounded'>
-                        <Addtocard></Addtocard>
+                        <Addtocard ExTime={extime}></Addtocard>
 
                 </div>
             </div>

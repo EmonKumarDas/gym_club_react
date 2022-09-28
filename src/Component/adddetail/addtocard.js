@@ -1,7 +1,7 @@
 import React from 'react';
 import Profileinfo from './profileinfo';
 
-const Addtocard = () => {
+const Addtocard = (props) => {
     return (
         <div>
             <h1 className='font-serif text-center text-lg font-bold bg-slate-700 p-5 rounded'>Card Details</h1>
@@ -22,7 +22,7 @@ const Addtocard = () => {
             <div className='font-bold bg-slate-700 p-5 rounded mt-5 '>
             <div className='flex justify-between'>
                 <p>Exercise time</p>
-                <p className='text-sm'>200 seconds</p>
+                <p className='text-sm'>{props.ExTime} 200 seconds</p>
             </div>
             <div className='flex justify-between'>
                 <p>Break time</p>
