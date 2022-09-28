@@ -9,9 +9,7 @@ const Cardfunction = () => {
 
     }, []);
     const [extime,setExtime] = useState([]);
-    let extimecount = 0;
     const addtocard=(gymdata)=>{
-        console.log(gymdata);
         const newExtime = [...extime, gymdata];
         setExtime(newExtime);
        

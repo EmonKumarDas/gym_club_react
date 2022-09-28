@@ -13,7 +13,7 @@ const Card = (props) => {
                 <h2 className="card-title">For Age : {age}</h2>
                 <h2 className="card-title">For Time : {time}</h2>
                 <div className="card-actions justify-center mt-10">
-                    <button onClick={()=>addcard(age)} className="btn btn-primary absolute inset-x-0 bottom-0 h-16">Add to List</button>
+                    <button onClick={()=>addcard(time)} className="btn btn-primary absolute inset-x-0 bottom-0 h-16">Add to List</button>
                 </div>
             </div>
         </div>

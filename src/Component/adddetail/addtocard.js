@@ -2,6 +2,11 @@ import React from 'react';
 import Profileinfo from './profileinfo';
 
 const Addtocard = (props) => {
+    const {ExTime} = props;
+    let total = 0;
+    for(const exTimes of ExTime){
+        total = exTimes + total;
+    }
     return (
         <div>
             <h1 className='font-serif text-center text-lg font-bold bg-slate-700 p-5 rounded'>Card Details</h1>
@@ -22,7 +27,7 @@ const Addtocard = (props) => {
             <div className='font-bold bg-slate-700 p-5 rounded mt-5 '>
             <div className='flex justify-between'>
                 <p>Exercise time</p>
-                <p className='text-sm'>{props.ExTime} 200 seconds</p>
+                <p className='text-sm'>{total} seconds</p>
             </div>
             <div className='flex justify-between'>
                 <p>Break time</p>
