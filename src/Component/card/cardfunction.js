@@ -15,7 +15,9 @@ const Cardfunction = () => {
                     <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12'>
                         {
                             gym.map(gymvalue =>
-                                <Card gymdata={gymvalue}></Card>
+                                <Card 
+                                key={gymvalue.key}
+                                gymdata={gymvalue}></Card>
                             )
                         }
 
