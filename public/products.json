@@ -1,0 +1,74 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "category": "The Membership Gym",
+    "name": "Fitness Heroes",
+    "age": 40,
+    "time": 37,
+    "img": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+    "category": "THE PERSONAL TRAINING",
+    "name": "Strength Center",
+    "age": 50,
+    "time": 43,
+    "img": "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+    "category": " The 24 hour access gym",
+    "name": "Body Sculpting Studio",
+    "age": 40,
+    "time": 39,
+    "img": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+    "category": "CrossFit",
+    "name": "Power, Fitness and Strength",
+    "age": 50,
+    "time": 17,
+    "img": "https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+    "category": "Boot Camps",
+    "name": "Power Zone",
+    "age": 40,
+    "time": 7,
+    "img": "https://images.pexels.com/photos/4720793/pexels-photo-4720793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+    "category": "Training gyms",
+    "name": "Strength and Fitness Palace",
+    "age": 30,
+    "time": 43,
+    "img": "https://images.pexels.com/photos/2247179/pexels-photo-2247179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
+    "category": "THE PERSONAL TRAINING",
+    "name": "Pump House",
+    "age": 40,
+    "time": 28,
+    "img": "https://images.pexels.com/photos/4720571/pexels-photo-4720571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": "c9d1f410-d28f-49d9-9b01-d759b5acbeea",
+    "category": "THE PERSONAL TRAINING",
+    "name": "The Muscle Studio",
+    "age": 40,
+    "time": 13,
+    "img": "https://images.pexels.com/photos/3838339/pexels-photo-3838339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": "1564a06b-692f-4f2e-8413-9c8a1cc2da77",
+    "category": "THE PERSONAL TRAINING",
+    "name": "NMD_R1",
+    "age": 50,
+    "time": 19,
+    "img": "https://images.pexels.com/photos/1480530/pexels-photo-1480530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  }
+]
