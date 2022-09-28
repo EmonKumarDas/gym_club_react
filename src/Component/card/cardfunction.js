@@ -16,7 +16,7 @@ const Cardfunction = () => {
                         {
                             gym.map(gymvalue =>
                                 <Card 
-                                key={gymvalue.key}
+                                key={gymvalue.id}
                                 gymdata={gymvalue}></Card>
                             )
                         }
