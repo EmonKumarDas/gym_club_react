@@ -5,7 +5,7 @@ const Navbar = () => {
         <div>
             <div className="navbar bg-base-100">
   <div className="flex-1">
-    <a href="google.com" className="btn btn-ghost normal-case text-xl">GYM-CLUB</a>
+    <a href="google.com" className="btn btn-ghost normal-case text-xl text-success font-bold">GYM-CLUB</a>
   </div>
   <div className="flex-none">
     <button className="btn btn-square btn-ghost">
