@@ -1,5 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import Profileinfo from './profileinfo';
+
+const getLocalStorageValue= ()=>{
+    let values = localStorage.getItem('value');
+    console.log(values);
+    if(values){
+        return localStorage.getItem('value');
+    }
+    else{
+        return 0;
+    }
+}
 
 const Addtocard = (props) => {
     const { ExTime } = props;
@@ -7,11 +18,23 @@ const Addtocard = (props) => {
     for (const exTimes of ExTime) {
         total = exTimes + total;
     }
-    const [value, setValue] = useState('0');
+    const [value, setValue] = useState(getLocalStorageValue());
     const addvalue = (values) => {
         let newvalue = +values;
         setValue(newvalue);
     }
+ 
+    useEffect(() => {
+        localStorage.setItem('value', value);
+      }, [value]);
+
+    //   useEffect(() => {
+    //     const value = JSON.parse(localStorage.getItem('value'));
+    //     if (value) {
+    //         setValue(value);
+    //     }
+    //   }, []);
+
     return (
         <div>
             <h1 className='font-serif text-center text-lg font-bold bg-slate-700 p-5 rounded'>Card Details</h1>
