@@ -3,7 +3,6 @@ import Profileinfo from './profileinfo';
 
 const getLocalStorageValue= ()=>{
     let values = localStorage.getItem('value');
-    console.log(values);
     if(values){
         return localStorage.getItem('value');
     }

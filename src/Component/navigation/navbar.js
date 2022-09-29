@@ -1,11 +1,13 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
     return (
         <div>
             <div className="navbar bg-base-100">
   <div className="flex-1">
-    <a href="google.com" className="btn btn-ghost normal-case text-xl text-success font-bold">GYM-CLUB</a>
+    <a href="google.com" className="btn btn-ghost normal-case text-xl text-success font-bold"><FontAwesomeIcon icon={faCoffee} />GYM-CLUB</a>
   </div>
   <div className="flex-none">
     <button className="btn btn-square btn-ghost">

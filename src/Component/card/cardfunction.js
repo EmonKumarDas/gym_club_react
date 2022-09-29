@@ -16,7 +16,7 @@ const Cardfunction = () => {
     }
     return (
         <div>
-            <div className="grid lg:grid-cols-4 md:grid-cols-4 grid-cols-1 gap-4">
+            <div className="grid lg:grid-cols-4 md:grid-cols-4 grid-cols-1 gap-4 ml-5">
                 <div className='lg:col-span-3 md:col-span-3 col-span-3'>
                     <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-center gap-12'>
                         {
