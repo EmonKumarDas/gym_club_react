@@ -28,13 +28,6 @@ const Addtocard = (props) => {
         localStorage.setItem('value', value);
       }, [value]);
 
-    //   useEffect(() => {
-    //     const value = JSON.parse(localStorage.getItem('value'));
-    //     if (value) {
-    //         setValue(value);
-    //     }
-    //   }, []);
-
     return (
         <div>
             <h1 className='font-serif text-center text-lg font-bold bg-slate-700 p-5 rounded'>Card Details</h1>
