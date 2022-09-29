@@ -6,9 +6,9 @@ const Card = (props) => {
     return (
 
         <div className="card lg:w-[23vw] md:w-[35vw] w-[60vw] bg-base-100 shadow-xl ml-2 relative">
-            <figure><img src={img} alt="Shoes" /></figure>
+            <figure><img src={img} alt="Shoes"/></figure>
             <div className="card-body">
-                <h2 className="card-title">{category}</h2>
+                <h2 className="card-title text-start">{category}</h2>
                 <h2 className="card-title text-start">For Name : {name}</h2>
                 <h2 className="card-title">For Age : {age}</h2>
                 <h2 className="card-title">For Time : {time}</h2>
