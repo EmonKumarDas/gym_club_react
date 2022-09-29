@@ -9,7 +9,7 @@ const Addtocard = (props) => {
     }
     const [value, setValue] = useState('0');
     const addvalue = (values) => {
-        let newvalue = +values + +value;
+        let newvalue = +values;
         setValue(newvalue);
     }
     return (
@@ -20,10 +20,10 @@ const Addtocard = (props) => {
                 <p className='font-serif text-center text-lg font-bold bg-slate-700 p-2 rounded'>Add a Break</p>
                 <div className='text-lg font-bold bg-slate-700 p-5 rounded mt-5 grid lg:grid-cols-5 md:grid-cols-2 gap-3'>
                     <button className=' mask mask-circle text-center bg-slate-50 text-black p-1' onClick={() => addvalue('30')}>30</button>
-                    <p className=' mask mask-circle text-center bg-slate-50 text-black p-1' onClick={() => addvalue('20')}>20</p>
-                    <p className=' mask mask-circle text-center bg-slate-50 text-black p-1' onClick={() => addvalue('40')}>40</p>
-                    <p className=' mask mask-circle text-center bg-slate-50 text-black p-1' onClick={() => addvalue('10')}>10</p>
-                    <p className=' mask mask-circle text-center bg-slate-50 text-black p-1' onClick={() => addvalue('15')}>15</p>
+                    <button className=' mask mask-circle text-center bg-slate-50 text-black p-1' onClick={() => addvalue('20')}>20</button>
+                    <button className=' mask mask-circle text-center bg-slate-50 text-black p-1' onClick={() => addvalue('40')}>40</button>
+                    <button className=' mask mask-circle text-center bg-slate-50 text-black p-1' onClick={() => addvalue('10')}>10</button>
+                    <button className=' mask mask-circle text-center bg-slate-50 text-black p-1' onClick={() => addvalue('15')}>15</button>
                 </div>
             </div>
 
